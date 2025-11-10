@@ -36,9 +36,9 @@ app/
  ├── index.tsx // Arquivo de entrada do aplicativo
  ├── _layout.tsx // Configuração das rotas
  └── users/
- 	   ├── index.tsx // Lista de usuários com nome e e-mail
-      ├── user.tsx // Tela com detalhes do usuário
- 	   └── form.tsx // Formulário de criação ou alteração dos dados do usuário
+        ├── index.tsx // Lista de usuários com nome e e-mail
+        ├── user.tsx // Tela com detalhes do usuário
+        └── form.tsx // Formulário de criação ou alteração dos dados do usuário
 
 types/
  └── users.ts // Criação da interface de dados do usuário
@@ -51,6 +51,7 @@ Cada operação CRUD (exceto a de listagem de todos os usuários) deverão ter u
 
 ## Configuração do TailwindCSS
 A configuração do TailwindCSS deverá ser feita no projeto de acordo com o tutorial disponível em: https://www.nativewind.dev/docs/getting-started/installation . A configuração deve seguir comandos que usem o Expo. Acessem o link anterior para mais detalhes.
+
 **Observação**: usem o mesmo estilo de componentes em todas as telas do aplicativo.
 
 ## Solicitações de pull requests
